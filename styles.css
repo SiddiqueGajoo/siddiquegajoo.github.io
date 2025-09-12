@@ -39,6 +39,7 @@
     hsl(0, 0%, 25%) 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
+
   --text-gradient-yellow: linear-gradient(
     to right, 
     hsl(45, 100%, 72%), 
@@ -150,8 +151,64 @@ body { background: var(--smoky-black); }
 
 
 
+/* Tech Stack */
 
+.tech-stack {
+  margin-bottom: 30px;
+}
 
+.tech-category {
+  margin-bottom: 20px;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-gradient-onyx);
+  padding: 10px 14px;
+  border-radius: 10px;
+  box-shadow: var(--shadow-2);
+  transition: transform 0.2s ease;
+}
+
+.tech-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.tech-item span {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-900);
+}
+
+.tech-item:hover {
+  transform: scale(1.05);
+}
+.category-title {
+  position: relative;
+  padding-left: 15px; /* space for bullet */
+  color: var(--white-2);
+  font-weight: var(--fw-600);
+}
+
+.category-title::before {
+  content: "•"; /* bullet point */
+  position: absolute;
+  left: 0;
+  top: 3;
+  color: var(--white-1); /* same gold/yellow theme */
+  font-size: 20px;
+  line-height: 1;
+}
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -2185,4 +2242,5 @@ textarea.form-input::-webkit-resizer {
       width: 14px;
       height: 14px;
     }
+    
   }
