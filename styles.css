@@ -212,7 +212,22 @@ body { background: var(--smoky-black); }
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
+.company-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* space between text and icon */
+}
 
+.company-link {
+  color: var(--orange-yellow-crayola); /* matches your theme */
+  font-size: 16px;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.company-link:hover {
+  color: var(--white-2);
+}
 .sidebar,
 article {
   background: var(--eerie-black-2);
