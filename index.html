@@ -532,7 +532,7 @@
         <button class="form-btn" type="button" data-form-btn=""
         onclick="window.open('https://drive.google.com/file/d/12sHNeOsLm2aLnllX00DuMb1vFxEwpWZ6/view?usp=sharing', '_blank')">
   <ion-icon name="document-text-outline"></ion-icon>
-  <span>View CV</span>
+  <span>Download CV</span>
 </button>
     
       </article>
@@ -543,7 +543,7 @@
 
       <article class="portfolio" data-page="portfolio">
   <header>
-    <h2 class="h2 article-title">Portfolio</h2>
+    <h2 class="h2 article-title">Projects</h2>
   </header>
 
   <section class="projects">
@@ -593,7 +593,7 @@
 
         // Determine category based on language
         let category = "web development";
-        if (repo.language === "Dart" || repo.language === "Java") category = "applications";
+        if (repo.language === "Dart" || repo.language === "Java") category = "Mobile Application";
         if (repo.language === "HTML" || repo.language === "CSS") category = "ui/ux";
 
         // Add project item
@@ -633,8 +633,9 @@
       return false;
     }
   }
-
+  
   fetchRepos();
+  
 </script>
 
 </section>
