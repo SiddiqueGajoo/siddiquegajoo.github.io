@@ -592,9 +592,9 @@
         const imageExists = await checkImageExists(imageUrl);
 
         // Determine category based on language
-        let category = "web development";
+        let category = "ui/ux";
         if (repo.language === "Dart" || repo.language === "Java") category = "Application";
-        if (repo.language === "HTML" || repo.language === "CSS") category = "ui/ux";
+        if (repo.language === "HTML" || repo.language === "CSS") category = "web development";
 
         // Add project item
         const li = document.createElement("li");
