@@ -30,11 +30,11 @@ It showcases my skills, projects, and contact details as a **Software Developer*
 .
 ├── assets/ # Images, icons, skills, projects
 
-├── index.html # Main website file
+ ├── index.html # Main website file
 
-├── styles.css # Custom styling
+ ├── styles.css # Custom styling
 
-└── README.md # Documentation (this file)
+ └── README.md # Documentation (this file)
 
 ---
 
