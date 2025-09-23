@@ -29,8 +29,11 @@ It showcases my skills, projects, and contact details as a **Software Developer*
 ## 📂 Project Structure
 .
 ├── assets/ # Images, icons, skills, projects
+
 ├── index.html # Main website file
+
 ├── styles.css # Custom styling
+
 └── README.md # Documentation (this file)
 
 ---
