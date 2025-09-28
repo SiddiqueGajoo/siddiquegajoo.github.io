@@ -51,6 +51,8 @@ The site is deployed using **GitHub Pages**:
 - **LinkedIn**: [Siddique Aslam](https://www.linkedin.com/in/siddique-aslam-7b7763231/)  
 - **GitHub**: [siddiquegajoo](https://github.com/siddiquegajoo)  
 - **WhatsApp**: [+92 319 4129390](https://wa.me/923194129390)
+<img width="940" height="788" alt="project" src="https://github.com/user-attachments/assets/e63e120a-f9a5-4b76-a545-637e73b9a724" />
+
 
 ---
 
