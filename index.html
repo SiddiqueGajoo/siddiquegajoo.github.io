@@ -587,6 +587,7 @@
       projectList.innerHTML = "";
 
       for (const repo of repos) {
+        if (repo.name.toLowerCase() === username.toLowerCase()) continue;
         // Try to fetch image from assets/project.png in each repo
         const imageUrl = `https://raw.githubusercontent.com/${username}/${repo.name}/main/assets/project.png`;
         const imageExists = await checkImageExists(imageUrl);
